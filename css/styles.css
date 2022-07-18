@@ -63,7 +63,10 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -100,8 +103,8 @@ a:hover {
   bottom: 300px;
 }
 
-.code-img {
-  width: 25%;
+.art-img {
+  width: 70%;
   float: left;
   margin-right: 30px;
 }
@@ -137,4 +140,10 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
 }
